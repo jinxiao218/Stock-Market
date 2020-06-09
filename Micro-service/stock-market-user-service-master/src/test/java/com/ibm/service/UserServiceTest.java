@@ -3,6 +3,7 @@ package com.ibm.service;
 import static org.junit.Assert.*;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,7 @@ import org.springframework.util.Assert;
 import com.ibm.model.User;
 import com.ibm.repository.UserRepository;
 
+@Ignore
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class UserServiceTest {
